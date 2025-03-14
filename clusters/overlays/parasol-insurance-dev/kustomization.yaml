@@ -13,6 +13,10 @@ patches:
     target:
       group: argoproj.io
       kind: Application
+  - path: patch-console-notification.yaml
+    target:
+      group: console.openshift.io
+      kind: ConsoleNotification
 
 replacements:
   - source:
