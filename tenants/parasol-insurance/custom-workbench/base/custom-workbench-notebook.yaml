@@ -1,3 +1,4 @@
+
 apiVersion: kubeflow.org/v1
 kind: Notebook
 metadata:
@@ -10,6 +11,7 @@ metadata:
     openshift.io/display-name: custom-workbench
     notebooks.opendatahub.io/last-image-selection: 'custom-notebook:latest'
     argocd.argoproj.io/sync-options: ServerSideApply=true
+    check-version: 1.1 
   name: custom-workbench
   namespace: parasol-insurance
 spec:
