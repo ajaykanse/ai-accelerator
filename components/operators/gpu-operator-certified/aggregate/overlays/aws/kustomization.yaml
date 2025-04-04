@@ -6,5 +6,4 @@ commonAnnotations:
 
 resources:
   - ../../../operator/overlays/v24.9
-  - ../../../operator/overlays/stable
   - ../../../instance/overlays/aws
