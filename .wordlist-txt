@@ -25,7 +25,6 @@ CloudEvents
 ClusterRole
 ClusterRoleBinding
 ClusterRoleBindings
-ClusterTask
 CodeFlare
 CodeReady
 ConfigMap
@@ -263,6 +262,7 @@ libvirt
 lifecycle
 linter
 linux
+llamastack
 llm
 machineset
 microservices

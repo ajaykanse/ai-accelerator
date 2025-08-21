@@ -7,13 +7,16 @@ resources:
 components:
   - ../../components/auth-with-authorino
   - ../../components/components-distributed-compute
-  - ../../components/components-serving
+  - ../../components/components-kserve
+  - ../../components/components-llamastack
   - ../../components/components-training
   - ../../components/components-trustyai
+  - ../../components/dashboard-feature-hardware-profiles
+  - ../../components/dashboard-feature-model-catalog
   - ../../components/default-notebook-pvc-size
+  - ../../components/nvidia-gpu-hardware-profile
   - ../../components/idle-notebook-culling
   - ../../components/notebook-pod-sizes
-  - ../../components/nvidia-gpu-accelerator-profile
   - ../../components/make-kubeadmin-cluster-admin
   - ../../components/model-server-pod-sizes
-  - ../../components/rhoai-dashboard-access
+  - ../../components/rhoai-auth
